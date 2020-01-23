@@ -1,0 +1,27 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.fill{
+    background-color: blanchedalmond;
+    color: black;
+    font-size: large;
+    border: 1px blue;
+}
+.background {
+    color: red;
+    background-color: gray;
+    font-size: 40px;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+}
