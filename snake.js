@@ -129,9 +129,9 @@ function draw() {
     ctx.fillText(score, 2 * box, 1.6 * box);
 }
 
-// Zavolá funkci draw každých 100ms
+// Zavolá funkci draw každých 80ms
 
-var game = setInterval(draw, 100);
+var game = setInterval(draw, 80);
 
 //Resetuje hru
 document.getElementById('button').addEventListener('click', function() {
