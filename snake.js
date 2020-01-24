@@ -131,7 +131,7 @@ function draw() {
 
 // Zavolá funkci draw každých 100ms
 
-var game = setInterval(draw, 50);
+var game = setInterval(draw, 100);
 
 //Resetuje hru
 document.getElementById('button').addEventListener('click', function() {
